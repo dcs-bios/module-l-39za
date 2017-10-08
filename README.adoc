@@ -1,0 +1,43 @@
+ifdef::env-github[{set:link-ext:adoc}]
+ifndef::env-github[{set:link-ext:html}]
+
+DCS-BIOS is a community-maintained `Export.lua` file for use with http://www.digitalcombatsimulator.com/[DCS: World].
+It provides a stable, documented interface for external hardware and software to interact with the clickable cockpit of a DCS: World aircraft.
+
+== For Panel Builders
+
+You don't need to be a programmer or electrical engineer.
+The link:Scripts/DCS-BIOS/doc/userguide.{link-ext}[DCS-BIOS User Guide] will show you step by step how to connect your panel to DCS using DCS-BIOS and the beginner-friendly http://arduino.cc[Arduino microcontroller platform].
+You don't have to write any program code yourself.
+
+== For Software Developers
+
+The link:Scripts/DCS-BIOS/doc/developerguide.{link-ext}[Developer Guide] explains how to connect to and interpret the DCS-BIOS export data stream and how to send commands to DCS-BIOS to operate controls inside the cockpit.
+
+== Is My Aircraft Supported?
+
+Currently, DCS-BIOS supports the following aircraft modules:
+
+* A-10C
+* UH-1H
+* Mig-21Bis (contributed by wraith444)
+* Ka-50 (contributed by airtom)
+* Mi-8 (contributed by ArturDCS)
+* F-86F (contributed by ArturDCS)
+* FW-190 (contributed by ArturDCS)
+
+If you want to add support for another module, please get in touch.
+
+== Contribute
+
+If you have a question or found a bug, please https://github.com/dcs-bios/dcs-bios/issues/new[open an issue on the GitHub issue tracker].
+
+If you want to contribute code or documentation, please send a pull request on GitHub.
+
+The documentation is written in the AsciiDoc format and converted to the final HTML version with http://asciidoctor.org[Asciidoctor].
+
+== License
+
+DCS-BIOS is released under a slightly modified Simple Public License 2.0 (think "a version of the GPL readable by mere mortals"). Please see `DCS-BIOS-License.txt`.
+
+The copy of `socat` that comes with DCS-BIOS is licensed under the GPLv2 (see `socat/COPYING`).
